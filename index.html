@@ -10,6 +10,16 @@
 			<fieldset id="container">
 				<form name="calculator">
 					<input id="display" type="text" name="display" readonly>
+					
+					
+					<input class="button digits" type="button" value="(" onclick="calculator.display.value+='('">
+					<input class="button digits" type="button" value=")" onclick="calculator.display.value+=')'">
+					<input class="button digits" type="button" value="." onclick="calculator.display.value+='.'">
+
+
+					<input class="button mathButtons" type="button" value="%" onclick="calculator.display.value+='%'">
+
+					<br>
 
 					<input class="button digits" type="button" value="7" onclick="calculator.display.value+='7'">
 					<input class="button digits" type="button" value="8" onclick="calculator.display.value+='8'">
